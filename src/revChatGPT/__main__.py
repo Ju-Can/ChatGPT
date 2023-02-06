@@ -100,6 +100,7 @@ def main():
     # Start chat
     while True:
         try:
+
             prompt = get_input("\nUser:\n")
         except KeyboardInterrupt:
             print("\nExiting...")
